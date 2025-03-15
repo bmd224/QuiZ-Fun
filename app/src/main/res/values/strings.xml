@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">QuiZ &amp; Fun</string>
+    <string name="default_web_client_id">251406664341-mh6h24ebe35d4hi3sr0iagnn01u6kj6b.apps.googleusercontent.com</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+
+</resources>

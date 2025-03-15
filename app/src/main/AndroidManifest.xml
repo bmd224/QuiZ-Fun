@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="uqac.dim.myapp1">
+
+    <!-- Permission pour accéder à Internet (Firebase, API, ...) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.QuiZandFun">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activités -->
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.MenuActivity" />
+        <activity android:name=".quiz.QuizQuestionActivity" />
+        <activity android:name=".quiz.CategoriesActivity" />
+        <activity android:name=".historique.HistoriqueScoreActivity" />
+        <activity android:name=".gestionProfil.CreerProfilActivity" />
+
+        <activity android:name=".authentification.ModifierMDPActivityScreen" />
+    </application>
+</manifest>
